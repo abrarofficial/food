@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+header {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.hero-box {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+h1 {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.hero-btn {
+    border: solid 1px #e67e22;
+    padding: 10px 25px;
+    margin-right: 15px;
+    color: #e67e22;
+    border-radius: 12px;
+    text-decoration: none;
+}
+.hero-btn:hover {
+    color: #fff;
+    background-color: #e67e22;
+    text-decoration: none;
+
+}
+
+.logo {
+    float: left;
+    height: 100px;
+    margin-top: 20px;
+}
+.main-nav {
+    float: right;
+    margin-top: 60px;
+    list-style: none;
+}
+.main-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.main-nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+.main-nav li a:hover {
+    text-decoration: none;
+    color: #e67e22;
+}
+
+section {
+    padding: 40px 0;
+}
+h2 {
+    text-align: center;
+    font-size: 150%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #e67e22;
+    margin: 25px auto;
+}
+
+.feat-p {
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 30px;
+}
+.box i {
+    color: #e67e22;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.box p {
+    line-height: 150%;
+}
+
+.meal {
+    padding: 0;
+    margin-bottom: -5px;
+    background-color: #000;
+    overflow: hidden;
+}
+.meal img {
+    width: 100%;
+    opacity: 0.5;
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.meal img:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.city img {
+    width: 100%;
+}
+.city h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.info {
+    margin-bottom: 10px;
+}
+.info i {
+    margin-right: 10px;
+    color: #e67e22;
+}
+.info:hover {
+    color: #e67e22;
+    text-decoration: none;
+}
+
+.testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+blockquote {
+    font-style: italic;
+    line-height: 150%;
+    margin-top: 30px;
+}
+cite {
+    display: block;
+    margin-top: 20px;
+}
+cite img {
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 250px;
+}
+input[type="checkbox"] {
+    width: 10%;
+}
+.send {
+    padding: 10px 20px;
+    background-color: #e67e22;
+    color: #fff;
+    border-radius: 7px;
+}
+.send:hover {
+    background-color: #fff;
+    color: #e67e22;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px 0px;
+}
+footer p {
+    color: #888;
+    text-align: center;
+}
+.footer-nav {
+    float: left;
+    list-style: none;
+}
+.footer-nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-nav li a {
+    text-decoration: none;
+    color: #888;
+}
+.footer-nav li a:hover {
+    text-decoration: none;
+    color: #ddd;
+}
+.social-nav {
+    float: right;
+    list-style: none;
+}
+.social-nav li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px;
+}
+.social-nav li a {
+    text-decoration: none;
+    color: #888;
+}
+.social-nav li a:hover {
+    text-decoration: none;
+    color: #ddd;
+}
